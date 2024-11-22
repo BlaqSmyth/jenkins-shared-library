@@ -1,6 +1,6 @@
 #!/user/bin/env groovy
 
-def buildJar() {
+def call() {
     echo 'building the application...'
     sh 'mvn package'
 }
